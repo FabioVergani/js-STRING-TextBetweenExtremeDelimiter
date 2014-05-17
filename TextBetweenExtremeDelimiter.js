@@ -1,3 +1,6 @@
+
+function TextBetweenExtremeDelimiter(s,a,b){var j,i;return (i=s.indexOf(a))>=0&&(j=s.lastIndexOf(b))?s.substring(i+1+a.length,j):''};
+
 /*
 The difference is in the second argument. 
 into substring is the index to stop at (but not include), 

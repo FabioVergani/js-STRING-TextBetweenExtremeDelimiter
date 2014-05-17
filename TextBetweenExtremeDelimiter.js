@@ -1,3 +1,4 @@
+String.BetweenExtremeDelimiters=function(s,a,b){var j,i;return (i=s.indexOf(a))>=0&&(j=s.lastIndexOf(b))?s.substring(i+1+a.length,j):''};
 
 function TextBetweenExtremeDelimiter(s,a,b){var j,i;return (i=s.indexOf(a))>=0&&(j=s.lastIndexOf(b))?s.substring(i+1+a.length,j):''};
 
